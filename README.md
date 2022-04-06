@@ -112,6 +112,15 @@ Since we are looking at building a national football team with the goal of achie
 | Currency Risk | Conversion rate from Euros to Doubloons. | If possible, conduct all transactions only in Doubloons (∂). |
 | Financial Risk | Costs are unexpectedly high and exceed our financial capacity. | Transfer risk to other entities through contracts, insurance, or waivers. |
 
+| Risk | Rank | Occurrence/Likelihood | Financial Impact | Reputational Impact |
+| :---:  | :---:  | :---:  | :---:  | :---:  |
+| Performance Risk | 1 | mid | high | high |
+| People Risk | 2 | mid | mid | mid/high |
+| Financial Risk | 3 | mid | mid | low/mid |
+| Physical Risk | 4 | high | low | low |
+| Currency Risk | 5 | low | low | low |
+
+
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
 >Now it's time to build your own website to showcase your work.  
