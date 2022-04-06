@@ -1,3 +1,4 @@
+![Grajong Maj](https://user-images.githubusercontent.com/100133925/161910706-9a84592d-6c34-4b6f-8c1b-ec80eae54579.gif)
 
 ![g6](https://user-images.githubusercontent.com/100133925/161906777-c59da982-363f-484e-8fc9-ae76e834a8d7.gif)
 <img src= "https://user-images.githubusercontent.com/100133925/161908888-4841d99f-ce83-4f58-ae30-a1acbf350bcc.gif" width="100">
