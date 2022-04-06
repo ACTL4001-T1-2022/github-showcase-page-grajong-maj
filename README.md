@@ -19,8 +19,17 @@ This study aims to find the best Raritan soccer team from the combination of pla
 
 # Team Selection :people_holding_hands:
 
+By examining FIFA teams, we found that the most effective team entails a formation that includes 4 defenders, 3 midfielders, 3 forwards and 1 goalkeeper. Since there is a loaning fee for international players, the team only includes the best players from the Raritan nation due to financial reasons. As per FIFA 2022 World Cup regulations, a squad of 23 must be chosen with 3 goalkeepers. An extra substitute for all other 10 positions is also included to round out the 23-player squad. To choose the best players in each role, a wide variety of modelling techniques were implemented. These include linear regression, lasso regression, regression trees, bagging, random forest and boosting. 
+
+After comparing all the models by examining their mean-squared-error, the best model was chosen for each statistic (defending, passing, shooting, goalkeeping) and implemented to rank the players. Players are given different points based on how well they performed in each statistic, and they are ranked accordingly, and the highest-rated players are selected for the Raritan Team. 
+
+
  use <br /> to make a new line  in a table
- 
+
+
+
+
+
 | Position | Number of players (Main/Substitute) | Player Statistic(s) included | Weighting Split | Statistic(s) to Measure |
 | :---: | :---: | :---: | :---: | :---: |
 | Goalkeeper | 1/2	| Goalkeeping	| 100% Goalkeeping |	Save % |
