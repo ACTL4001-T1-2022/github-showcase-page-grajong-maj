@@ -70,7 +70,7 @@ After selecting the best predictive model, the following table displays the squa
 | T. Larsson | 20 | ∂ 1,140,000 | Defender | Substitute |
 | H. Azizi | 22 | ∂ 5,870,000 | Defender | Substitute |
 
-### Assumptions
+# Assumptions
 ## Key Team Assumptions
 - Team formation would be 3 forwards, 3 midfielders, 4 defenders and 1 goalkeeper.
 - The players would be playing at a similar level relative to their 2020 and 2021 statistics.
