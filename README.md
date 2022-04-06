@@ -70,6 +70,21 @@ After selecting the best predictive model, the following table displays the squa
 | T. Larsson | 20 | ∂ 1,140,000 | Defender | Substitute |
 | H. Azizi | 22 | ∂ 5,870,000 | Defender | Substitute |
 
+### Assumptions
+## Key Team Assumptions
+- Team formation would be 3 forwards, 3 midfielders, 4 defenders and 1 goalkeeper.
+- The players would be playing at a similar level relative to their 2020 and 2021 statistics.
+- Squad of 23 in total as per FIFA 2022 world cup regulations. This includes a required 3 goalkeepers.
+- Players would peak at 30 and start to decline afterwards. Retirement was not considered. When the players reached 35, the average age of retirement (Waihenya, 2021), a larger decline in the players' abilities were accounted for.
+
+## Other Assumptions
+- Negative values in the data set did not make statistical sense (negative wins, goals, etc.). Took absolute values of all negative data values.
+- Percentage value columns recalculated as they had missing values and they would also give a more accurate value after recalculation. The formulas were found by referencing the data dictionary provided in the raw player data.
+- After calculation of the percentage variables, outliers were considered to be those over 105% and removed from the dataset (it is set at 105% due to possiblities of rounding error).
+-  No differentiation in the traits that should be implemented for the calculation of a players' ranking for players with different positions but the same role (ie. full-back and centre-back defenders used the same statistics for calculation).
+-  Timeline for the implementation plan is built under the assumption that tournaments are held in November.
+
+
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
 >Now it's time to build your own website to showcase your work.  
