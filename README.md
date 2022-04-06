@@ -10,7 +10,7 @@
 
 ![081eb6d74bbf568dafab036805fb23f7](https://user-images.githubusercontent.com/63340904/161907305-6940c722-809c-49d0-8f95-e32b375d3f5e.gif)
 
-> James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
+James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
 # Objective Analysis :soccer:
 
 This study aims to find the best Raritan soccer team from the combination of players available. We will be selecting and establishing a competitive team that will rank within the top ten nations of the FSA within the next five years, as well as a high probability of achieving an FSA championship within the next ten years. Utilising regression and other modelling techniques, the players were ranked position-wise and chosen for the team. Whilst creating the team, there were data limitations and assumptions which are highlighted throughout the report. The economic impacts of the chosen team is examined, including revenue and expenses on Rarita. A risk analysis on Rarita regarding its economic, political, and reputational status is also provided. Finally, there is an implementation plan with key metrics to support and monitor the progress of the proposed team. 
