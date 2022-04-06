@@ -23,8 +23,8 @@ This study aims to find the best Raritan soccer team from the combination of pla
 | :---: | :---: | :---: | :---: | :---: |
 | Goalkeeper | 1/2	| Goalkeeping	| 100% Goalkeeping |	Save % |
 | Forward	| 3/3	| Shooting	| 100% Shooting	 | Goals per shot-on-target |
-| Midfielder | 3/3 | Shooting, Defending, Passing | 30% Shooting, 30% Defending, 40% Passing | Goals per shot-on-target, Dribblers tackled %, Pressures %, Total pass completion % |
-| Defender | 4/4 | Defending, Passing | 75% Defending, \n 25% Passing | Pressures %, Total pass completion % |
+| Midfielder | 3/3 | Shooting <br /> Defending <br /> Passing | 30% Shooting <br /> 30% Defending <br /> 40% Passing | Goals per shot-on-target <br /> Dribblers tackled % <br /> Pressures % <br /> Total pass completion % |
+| Defender | 4/4 | Defending <br /> Passing | 75% Defending, <br /> 25% Passing | Pressures % <br /> Total pass completion % |
 
 
 
