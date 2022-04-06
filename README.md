@@ -107,8 +107,10 @@ Since we are looking at building a national football team with the goal of achie
 | Risk | Description | Mitigation Techniques |
 | :---:  | :---:  | :---:  |
 | Performance Risk | The actual performance of the selected team may deviate from their expected performance. This may lead to increased financing and/or a negative impact on Rarita’s reputation. | For the players that are underperforming in the season or match, we can substitute another player in. <br /> <br /> Continued underperformance will result in a layoff. |
-| People Risk | Human element which includes everyone involved. Individual behaviour is unpredictable. <br /> <br /> E.g., if a player is caught doping.| Provide all personnel involved with detailed materials that promote fair play and honest behaviour. <br /> <br /> Develop and implement codes of conduct and discipline policies for the players and staff. |
-
+| People Risk | Human element which includes everyone involved. Individual behaviour is unpredictable. <br /> <br /> E.g., if a player is caught doping. | Provide all personnel involved with detailed materials that promote fair play and honest behaviour. <br /> <br /> Develop and implement codes of conduct and discipline policies for the players and staff. |
+| Physical Risk | Injury to a player or players which may lead to the team dropping out of the tournament. <br /> <br /> Linked to financial risk in which the medical compensation comes out of our pocket. | Select substitutes for the Raritan national team. <br /> <br /> Plan and organise safety procedures or action plans in the event of injury. <br /> <br /> Transfer part of the financial risk through medical insurance. |
+| Currency Risk | Conversion rate from Euros to Doubloons. | If possible, conduct all transactions only in Doubloons (∂). |
+| Financial Risk | Costs are unexpectedly high and exceed our financial capacity. | Transfer risk to other entities through contracts, insurance, or waivers. |
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
