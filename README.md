@@ -34,7 +34,7 @@ This study aims to find the best Raritan soccer team from the combination of pla
 
 | Player Name | Age | Annual Salary (∂) | Position | Starter/Substitute |
 | :---:  | :---:  | :---:  | :---:  | :---:  |
-| B. Ampofo | 32 | ∂3,840,000 | Goalkeeper | Starter |
+| B. Ampofo | 32 | ∂ 3,840,000 | Goalkeeper | Starter |
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
