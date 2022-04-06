@@ -3,7 +3,7 @@
 
 ![e612857eaae172ac7741d60382d1b6bb](https://user-images.githubusercontent.com/100133925/161907024-26bc4286-efe2-45e0-9ff3-086bca509a75.gif)
 
-
+![081eb6d74bbf568dafab036805fb23f7](https://user-images.githubusercontent.com/63340904/161907305-6940c722-809c-49d0-8f95-e32b375d3f5e.gif)
 
 > James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
 # Objective Analysis :soccer:
