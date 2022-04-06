@@ -5,8 +5,8 @@ _"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benja
 
 ---
 ![57a684a997b63a4758158ec0e321fdb3](https://user-images.githubusercontent.com/100133925/161883027-90ea58e7-fbe2-4522-a932-214ed3f733ba.gif)
-![Uploading warwick-cinematic.gif…]()
-![Uploading tenor.gif…]()
+![warwick-cinematic](https://user-images.githubusercontent.com/100133925/161883118-a693394c-0e9f-4657-8c06-6d07e42d53c2.gif)
+![tenor](https://user-images.githubusercontent.com/100133925/161883133-af46972a-1ba8-4795-abaa-cc4253f9ace3.gif)
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
