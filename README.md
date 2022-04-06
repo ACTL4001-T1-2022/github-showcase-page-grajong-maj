@@ -17,8 +17,10 @@ This study aims to find the best Raritan soccer team from the combination of pla
 ![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
 ![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
 
-#Team Selection
+# Team Selection
 
+ use <br /> to make a new line  in a table
+ 
 | Position | Number of players (Main/Substitute) | Player Statistic(s) included | Weighting Split | Statistic(s) to Measure |
 | :---: | :---: | :---: | :---: | :---: |
 | Goalkeeper | 1/2	| Goalkeeping	| 100% Goalkeeping |	Save % |
