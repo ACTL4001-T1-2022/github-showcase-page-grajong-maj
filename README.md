@@ -1,4 +1,8 @@
-# Actuarial Theory and Practice A
+
+![Untitled](https://user-images.githubusercontent.com/100133925/161897010-6bde2114-3aa7-4917-9f8c-294887aeac92.png)
+
+
+# Team Selection
 
 _"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
 
