@@ -101,6 +101,10 @@ After selecting the best predictive model, the following table displays the squa
 
 ---
 
+# Risk and Risk Mitigation Considerations
+Since we are looking at building a national football team with the goal of achieving a positive economic impact, there are several risks we need to consider reducing the potential exposure to losses. These risks may have an economic or a reputational impact which will affect Rarita’s global influence and in turn, their ability to grow and develop as a nation. Table 5 describes the potential risks and risk mitigation techniques followed by Table 6 which represents the risk assessment matrix for the ranking, likelihood of occurrence, and potential impact for each risk.
+
+
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
 >Now it's time to build your own website to showcase your work.  
