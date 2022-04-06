@@ -17,7 +17,7 @@ This study aims to find the best Raritan soccer team from the combination of pla
 ![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
 ![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
 
-# Team Selection
+# Team Selection :people_holding_hands:
 
  use <br /> to make a new line  in a table
  
@@ -30,7 +30,7 @@ This study aims to find the best Raritan soccer team from the combination of pla
 
 
 
-## National Team
+## National Team :flags:
 
 | Player Name | Age | Annual Salary (∂) | Position | Starter/Substitute |
 | :---:  | :---:  | :---:  | :---:  | :---:  |
