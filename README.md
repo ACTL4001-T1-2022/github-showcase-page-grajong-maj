@@ -101,7 +101,7 @@ After selecting the best predictive model, the following table displays the squa
 
 ---
 
-# Risk and Risk Mitigation Considerations
+# Risk and Risk Mitigation Considerations 🔥
 Since we are looking at building a national football team with the goal of achieving a positive economic impact, there are several risks we need to consider reducing the potential exposure to losses. These risks may have an economic or a reputational impact which will affect Rarita’s global influence and in turn, their ability to grow and develop as a nation. The table below describes the potential risks and risk mitigation techniques.
 
 | Risk | Description | Mitigation Techniques |
@@ -124,7 +124,7 @@ This is followed by the risk assessment matrix for the ranking, likelihood of oc
 
 ---
 
-# Works Cited
+# Works Cited (☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)
 
 Central midfielder - the perfect all-rounder. planet.training. (n.d.). Retrieved March 25, 2022, from https://planet.training/central-midfielder-the-perfect-all-rounder
 
@@ -150,6 +150,7 @@ UEFA. (2020, October 1). Regulations FIFA World Cup 2022™ - UEFA. FIFA. Retrie
 
 Waihenya, S. (2021, September 4). What age do soccer players retire at? (quick read). Soccer Whizz. Retrieved March 26, 2022, from https://soccerwhizz.com/age-soccer-players-retire/
 
+---
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
