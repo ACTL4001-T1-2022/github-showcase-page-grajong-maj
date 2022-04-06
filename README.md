@@ -1,7 +1,10 @@
 
 ![g6](https://user-images.githubusercontent.com/100133925/161906777-c59da982-363f-484e-8fc9-ae76e834a8d7.gif)
+![animated-football-and-soccer-image-0093](https://user-images.githubusercontent.com/100133925/161907665-04c155b8-da31-4854-baa7-11856d4fdd42.gif)
 
-![e612857eaae172ac7741d60382d1b6bb](https://user-images.githubusercontent.com/100133925/161907024-26bc4286-efe2-45e0-9ff3-086bca509a75.gif)
+![soccer_player_animated3](https://user-images.githubusercontent.com/100133925/161907673-d6b6095c-837b-418d-8e65-1af8519604e6.gif)
+![Football_500x700-min](https://user-images.githubusercontent.com/100133925/161907811-49dd7def-51e0-4856-8d83-886eb482401a.gif)
+
 
 ![081eb6d74bbf568dafab036805fb23f7](https://user-images.githubusercontent.com/63340904/161907305-6940c722-809c-49d0-8f95-e32b375d3f5e.gif)
 
@@ -73,6 +76,8 @@ After selecting the best predictive model, the following table displays the squa
 | T. Larsson | 20 | ∂ 1,140,000 | Defender | Substitute |
 | H. Azizi | 22 | ∂ 5,870,000 | Defender | Substitute |
 
+![e612857eaae172ac7741d60382d1b6bb](https://user-images.githubusercontent.com/100133925/161907024-26bc4286-efe2-45e0-9ff3-086bca509a75.gif)
+
 # Assumptions
 ## Key Team Assumptions
 - Team formation would be 3 forwards, 3 midfielders, 4 defenders and 1 goalkeeper.
@@ -87,6 +92,8 @@ After selecting the best predictive model, the following table displays the squa
 -  No differentiation in the traits that should be implemented for the calculation of a players' ranking for players with different positions but the same role (ie. full-back and centre-back defenders used the same statistics for calculation).
 -  Timeline for the implementation plan is built under the assumption that tournaments are held in November.
 
+![twin-shoot-goal](https://user-images.githubusercontent.com/100133925/161907615-19883cab-446c-4765-aeb1-42aa6b51f87e.gif)
+![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
