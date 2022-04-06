@@ -1,15 +1,6 @@
 ![logo](https://user-images.githubusercontent.com/100133925/161915139-a3d910ab-104f-409f-9f7d-6b76d3745ef7.gif)
 
 
-![g6](https://user-images.githubusercontent.com/100133925/161906777-c59da982-363f-484e-8fc9-ae76e834a8d7.gif)
-<img src= "https://user-images.githubusercontent.com/100133925/161908888-4841d99f-ce83-4f58-ae30-a1acbf350bcc.gif" width="100">
-
-
-![soccer_player_animated3](https://user-images.githubusercontent.com/100133925/161907673-d6b6095c-837b-418d-8e65-1af8519604e6.gif)
-![Football_500x700-min](https://user-images.githubusercontent.com/100133925/161907811-49dd7def-51e0-4856-8d83-886eb482401a.gif)
-
-
-![081eb6d74bbf568dafab036805fb23f7](https://user-images.githubusercontent.com/63340904/161907305-6940c722-809c-49d0-8f95-e32b375d3f5e.gif)
 
 James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
 # Objective Analysis :soccer:
