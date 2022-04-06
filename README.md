@@ -102,7 +102,7 @@ After selecting the best predictive model, the following table displays the squa
 ---
 
 # Risk and Risk Mitigation Considerations
-Since we are looking at building a national football team with the goal of achieving a positive economic impact, there are several risks we need to consider reducing the potential exposure to losses. These risks may have an economic or a reputational impact which will affect Rarita’s global influence and in turn, their ability to grow and develop as a nation. The table below describes the potential risks and risk mitigation techniques followed by the risk assessment matrix for the ranking, likelihood of occurrence, and potential impact for each risk.
+Since we are looking at building a national football team with the goal of achieving a positive economic impact, there are several risks we need to consider reducing the potential exposure to losses. These risks may have an economic or a reputational impact which will affect Rarita’s global influence and in turn, their ability to grow and develop as a nation. The table below describes the potential risks and risk mitigation techniques.
 
 | Risk | Description | Mitigation Techniques |
 | :---:  | :---:  | :---:  |
@@ -112,11 +112,13 @@ Since we are looking at building a national football team with the goal of achie
 | Currency Risk | Conversion rate from Euros to Doubloons. | If possible, conduct all transactions only in Doubloons (∂). |
 | Financial Risk | Costs are unexpectedly high and exceed our financial capacity. | Transfer risk to other entities through contracts, insurance, or waivers. |
 
+This is followed by the risk assessment matrix for the ranking, likelihood of occurrence, and potential impact for each risk.
+
 | Risk | Rank | Occurrence/Likelihood | Financial Impact | Reputational Impact |
 | :---:  | :---:  | :---:  | :---:  | :---:  |
 | Performance Risk | 1 | mid | high | high |
-| People Risk | 2 | mid | mid | mid/high |
-| Financial Risk | 3 | mid | mid | low/mid |
+| People Risk | 2 | mid | mid | mid / high |
+| Financial Risk | 3 | mid | mid | low / mid |
 | Physical Risk | 4 | high | low | low |
 | Currency Risk | 5 | low | low | low |
 
