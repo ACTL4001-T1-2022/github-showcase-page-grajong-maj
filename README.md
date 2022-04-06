@@ -1,7 +1,8 @@
 
 ![g6](https://user-images.githubusercontent.com/100133925/161906777-c59da982-363f-484e-8fc9-ae76e834a8d7.gif)
 
-![kids-soccer](https://user-images.githubusercontent.com/100133925/161906902-a322a1b0-ac71-44e4-aeba-ddaa3bcf3345.png)
+![e612857eaae172ac7741d60382d1b6bb](https://user-images.githubusercontent.com/100133925/161907024-26bc4286-efe2-45e0-9ff3-086bca509a75.gif)
+
 
 
 > James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
