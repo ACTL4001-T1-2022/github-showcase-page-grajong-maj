@@ -112,7 +112,7 @@ Since we are looking at building a national football team with the goal of achie
 | Currency Risk | Conversion rate from Euros to Doubloons. | If possible, conduct all transactions only in Doubloons (∂). |
 | Financial Risk | Costs are unexpectedly high and exceed our financial capacity. | Transfer risk to other entities through contracts, insurance, or waivers. |
 
-This is followed by the risk assessment matrix for the ranking, likelihood of occurrence, and potential impact for each risk.
+This is followed by the risk assessment matrix for the ranking, likelihood of occurrence, financial impact, and potential impact for each risk.
 
 | Risk | Rank | Occurrence/Likelihood | Financial Impact | Reputational Impact |
 | :---:  | :---:  | :---:  | :---:  | :---:  |
