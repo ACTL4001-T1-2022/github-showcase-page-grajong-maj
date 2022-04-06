@@ -122,6 +122,34 @@ This is followed by the risk assessment matrix for the ranking, likelihood of oc
 | Physical Risk | 4 | high | low | low |
 | Currency Risk | 5 | low | low | low |
 
+---
+
+# Works Cited
+
+Central midfielder - the perfect all-rounder. planet.training. (n.d.). Retrieved March 25, 2022, from https://planet.training/central-midfielder-the-perfect-all-rounder
+
+Cook, J. (2018, June 13). World Cup Special: Does a volatile currency make for an exciting football team? WorldFirst UK Blog. Retrieved March 25, 2022, from https://www.worldfirst.com/uk/blog/events/world-cup-special-does-a-volatile-currency-make-for-an-exciting-football-team/
+
+Corbett, R. (2002, August 23). Risk management for sport organizations and sport facilities. Sport Law. Retrieved March 25, 2022, from https://sportlaw.ca/risk-management-for-sport-organizations-and-sport-facilities/
+
+Dendir, S. (2016, October 20). (PDF) when Do soccer players peak? A note - researchgate. ResearchGate. Retrieved March 26, 2022, from https://www.researchgate.net/publication/309367548_When_do_soccer_players_peak_A_note
+
+Doidge, M., Claus, R., Gabler, J., Irving, R., Millward, P., Silvério, J. (2019, June 4). The impact of international football events on local, national and transnational fan cultures: a critical overview. Taylor & Francis Online. Retrieved March 27, 2022, from https://www.tandfonline.com/doi/full/10.1080/14660970.2019.1616264 
+
+Gavião, L. O., Gavião, E. V., Sant’Anna, A. P., Lima, G. B. A., & Garcia, P. A. de A. (2021, July 19). Performance analysis of professional soccer goalkeepers by composition of probabilistic preferences. Revista Brasileira de Ciências do Esporte. Retrieved March 25, 2022, from https://www.scielo.br/j/rbce/a/7Fsdbn5SNkJQgWfSjvSYWfg/?lang=en
+
+Gelade, G. (2014, May 23). Evaluating the ability of goalkeepers in English premier ... ResearchGate. Retrieved March 25, 2022, from https://www.researchgate.net/publication/270258236_Evaluating_the_ability_of_goalkeepers_in_English_Premier_League_football
+
+James, G, Witten, D, Hastie, T, Tibshirani, R (2013), “An Introduction to Statistical Learning with Applications in R”, Springer Texts In Statistics, accessed via Perusall on 27 March 2022
+
+Kalén, A., Rey, E., de Rellán-Guerra, A. S., & Lago-Peñas, C. (2019, January 28). Are soccer players older now than before? aging trends and market value in the last three decades of the UEFA champions league. Frontiers. Retrieved March 25, 2022, from https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00076/full
+
+Singh, B. D. (2020, August 14). Buying a soccer team: A machine learning approach. Medium. Retrieved March 25, 2022, from https://towardsdatascience.com/buying-a-soccer-team-a-machine-learning-approach-283f51d52511
+
+UEFA. (2020, October 1). Regulations FIFA World Cup 2022™ - UEFA. FIFA. Retrieved March 25, 2022, from https://editorial.uefa.com/resources/0263-10f46ad3158d-d735f61afd27-1000/fifa_world_cup_2022_preliminary_competition_regulations-covid19_1_.pdf
+
+Waihenya, S. (2021, September 4). What age do soccer players retire at? (quick read). Soccer Whizz. Retrieved March 26, 2022, from https://soccerwhizz.com/age-soccer-players-retire/
+
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
