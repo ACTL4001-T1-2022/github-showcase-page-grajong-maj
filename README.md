@@ -95,6 +95,13 @@ After selecting the best predictive model, the following table displays the squa
 -  No differentiation in the traits that should be implemented for the calculation of a players' ranking for players with different positions but the same role (ie. full-back and centre-back defenders used the same statistics for calculation).
 -  Timeline for the implementation plan is built under the assumption that tournaments are held in November.
 
+# Data Limitations
+- There were several missing values in the percentage variables (Standard SoT%, Total Cmp%, etc.), when possible, these were recalculated.
+- Expected-goal-saves for goalkeeping data was not provided, which would have helped remove bias from the save-to-shot ratio metric used to evaluate goalkeeping ability.
+- Limited years avaiable for the players (2020 and 2021). Some players had drastic differences between the years.
+- All columns relating to expected goals in the tournament shooting data were missing for 2020 data, thus these statistics weren't considered in our models.
+- No 2020 data was provided for the tournament passing and defending data sets, therefore the training sets involving passing and defending data only incorporated league values.
+
 ![twin-shoot-goal](https://user-images.githubusercontent.com/100133925/161907615-19883cab-446c-4765-aeb1-42aa6b51f87e.gif)
 ![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
 
