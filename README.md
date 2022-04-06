@@ -1,5 +1,7 @@
 ![logo](https://user-images.githubusercontent.com/100133925/161915139-a3d910ab-104f-409f-9f7d-6b76d3745ef7.gif)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/100133925/161915139-a3d910ab-104f-409f-9f7d-6b76d3745ef7.gif" / width = "600">
+</p>
 
 
 James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
