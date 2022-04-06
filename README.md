@@ -1,5 +1,6 @@
 
-![grajong 2](https://user-images.githubusercontent.com/100133925/161904323-616bdd9b-5c21-4daa-bcbc-acc6bd101caf.gif)
+![g6](https://user-images.githubusercontent.com/100133925/161906777-c59da982-363f-484e-8fc9-ae76e834a8d7.gif)
+
 
 
 > James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
