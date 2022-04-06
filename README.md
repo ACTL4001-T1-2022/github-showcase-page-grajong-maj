@@ -1,6 +1,6 @@
 
 ![g6](https://user-images.githubusercontent.com/100133925/161906777-c59da982-363f-484e-8fc9-ae76e834a8d7.gif)
-[[https://user-images.githubusercontent.com/100133925/161907665-04c155b8-da31-4854-baa7-11856d4fdd42.gif | width = 100px]]
+[[https://user-images.githubusercontent.com/100133925/161907665-04c155b8-da31-4854-baa7-11856d4fdd42.gif|width = 100px]]
 
 ![soccer_player_animated3](https://user-images.githubusercontent.com/100133925/161907673-d6b6095c-837b-418d-8e65-1af8519604e6.gif)
 ![Football_500x700-min](https://user-images.githubusercontent.com/100133925/161907811-49dd7def-51e0-4856-8d83-886eb482401a.gif)
