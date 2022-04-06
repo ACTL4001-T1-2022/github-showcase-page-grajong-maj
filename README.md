@@ -101,7 +101,7 @@ After selecting the best predictive model, the following table displays the squa
 
 ---
 
-# Risk and Risk Mitigation Considerations 🔥
+# Risk and Risk Mitigation Considerations ![fire](https://user-images.githubusercontent.com/100197722/161955851-1498f20e-ad09-4534-983c-97d9b3c45a28.gif)
 Since we are looking at building a national football team with the goal of achieving a positive economic impact, there are several risks we need to consider reducing the potential exposure to losses. These risks may have an economic or a reputational impact which will affect Rarita’s global influence and in turn, their ability to grow and develop as a nation. The table below describes the potential risks and risk mitigation techniques.
 
 | Risk | Description | Mitigation Techniques |
