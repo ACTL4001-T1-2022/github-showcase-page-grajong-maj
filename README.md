@@ -35,6 +35,28 @@ This study aims to find the best Raritan soccer team from the combination of pla
 | Player Name | Age | Annual Salary (∂) | Position | Starter/Substitute |
 | :---:  | :---:  | :---:  | :---:  | :---:  |
 | B. Ampofo | 32 | ∂ 3,840,000 | Goalkeeper | Starter |
+| A. Omar | 33 | ∂ 7,320,000 | Goalkeeper | Substitute |
+| F. Ithungu | 28 | ∂ 1,530,000 | Goalkeeper | Substitute |
+| L. Mandala | 30 | ∂ 7,220,000 | Forward | Starter |
+| L. Tarigan | 31 | ∂ 6,400,000 | Forward | Starter |
+| H. Vos | 26 | ∂ 4,940,000 | Forward | Starter |
+| D. Lehner | 32 | ∂ 6,730,000 | Forward | Substitute |
+| N. Yamashita | 19 | ∂ 8,270,000 | Forward | Substitute |
+| Z. Zziwa | 23 | ∂ 9,120,000 | Forward | Substitute |
+| O. Tshuma | 25 | ∂ 28,050,000 | Midfielder | Starter |
+| P. Villa | 20 | ∂ 7,820,000 | Midfielder | Starter |
+| O. Wanjala | 23 | ∂ 1,750,000 | Midfielder | Starter |
+| F. Chin | 22 | ∂ 1,340,000 | Midfielder | Substitute |
+| G. Namuganza | 31 | ∂ 29,660,000 | Midfielder | Substitute |
+| E. Nakanjako | 20 | ∂ 10,750,000 | Midfielder | Substitute |
+| H. Zare | 29 | ∂ 15,430,000 | Defender | Starter |
+| N. Terzi | 22 | ∂ 5,000,000 | Defender | Starter |
+| C. Tukamushaba | 25 | ∂ 970,000 | Defender | Starter |
+| W. Yeoh | 29 | ∂ 560,000 | Defender | Starter |
+| T. Okoro | 26 | ∂ 730,000 | Defender | Substitute |
+| M. Ludwig | 32 | ∂ 11,910,000 | Defender | Substitute |
+| T. Larsson | 20 | ∂ 1,140,000 | Defender | Substitute |
+| H. Azizi | 22 | ∂ 5,870,000 | Defender | Substitute |
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
