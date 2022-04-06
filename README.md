@@ -106,7 +106,7 @@ Since we are looking at building a national football team with the goal of achie
 
 | Risk | Description | Mitigation Techniques |
 | :---:  | :---:  | :---:  |
-| Performance Risk | The actual performance of the selected team may deviate from their expected performance. This may lead to increased financing and/or a negative impact on Rarita’s reputation. | For the players that are underperforming in the season or match, we can substitute another player in.   Continued underperformance will result in a layoff. |
+| Performance Risk | The actual performance of the selected team may deviate from their expected performance. This may lead to increased financing and/or a negative impact on Rarita’s reputation. | For the players that are underperforming in the season or match, we can substitute another player in.                               Continued underperformance will result in a layoff. |
 
 
 
