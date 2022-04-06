@@ -7,7 +7,7 @@ James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
 
 ---
 
-# Objective Analysis :soccer:
+# Objective Analysis :computer:
 
 This study aims to find the best Raritan soccer team from the combination of players available. We will be selecting and establishing a competitive team that will rank within the top ten nations of the FSA within the next five years, as well as a high probability of achieving an FSA championship within the next ten years. Utilising regression and other modelling techniques, the players were ranked position-wise and chosen for the team. Whilst creating the team, there were data limitations and assumptions which are highlighted throughout the report. The economic impacts of the chosen team is examined, including revenue and expenses on Rarita. A risk analysis on Rarita regarding its economic, political, and reputational status is also provided. Finally, there is an implementation plan with key metrics to support and monitor the progress of the proposed team. 
 
@@ -19,7 +19,7 @@ This study aims to find the best Raritan soccer team from the combination of pla
 
 ---
 
-# Team Selection :adult:
+# Team Selection :soccer:
 
 By examining FIFA teams, we found that the most effective team entails a formation that includes 4 defenders, 3 midfielders, 3 forwards and 1 goalkeeper. Since there is a loaning fee for international players, the team only includes the best players from the Raritan nation due to financial reasons. As per FIFA 2022 World Cup regulations, a squad of **23** must be chosen with **3 goalkeepers**. An extra substitute for all other 10 positions is also included to round out the 23-player squad. To choose the best players in each role, a wide variety of modelling techniques were implemented. These include linear regression, lasso regression, regression trees, bagging, random forest and boosting. 
 
@@ -41,7 +41,7 @@ After comparing all the models by examining their mean-squared-error, the best m
 
 
 
-## National Team :pirate_flag:
+## National Team 🏴:
 
 After selecting the best predictive model, the following table displays the squad of **23** chosen for the Raritan National Team. This is the squad that will suit up for the international tournament. 
 
