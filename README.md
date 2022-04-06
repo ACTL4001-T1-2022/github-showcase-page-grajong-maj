@@ -4,6 +4,9 @@
 
 
 James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
+
+---
+
 # Objective Analysis :soccer:
 
 This study aims to find the best Raritan soccer team from the combination of players available. We will be selecting and establishing a competitive team that will rank within the top ten nations of the FSA within the next five years, as well as a high probability of achieving an FSA championship within the next ten years. Utilising regression and other modelling techniques, the players were ranked position-wise and chosen for the team. Whilst creating the team, there were data limitations and assumptions which are highlighted throughout the report. The economic impacts of the chosen team is examined, including revenue and expenses on Rarita. A risk analysis on Rarita regarding its economic, political, and reputational status is also provided. Finally, there is an implementation plan with key metrics to support and monitor the progress of the proposed team. 
@@ -11,15 +14,11 @@ This study aims to find the best Raritan soccer team from the combination of pla
 ![soccer-animation](https://user-images.githubusercontent.com/100133925/161908821-cdcc4e9b-c9cd-4b8a-ab9b-dbe242c45c8c.gif)
 
 
+
+![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
+
+
 ---
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
 
 # Team Selection :adult:
 
@@ -73,6 +72,8 @@ After selecting the best predictive model, the following table displays the squa
 | T. Larsson | 20 | ∂ 1,140,000 | Defender | Substitute |
 | H. Azizi | 22 | ∂ 5,870,000 | Defender | Substitute |
 
+---
+
 ![e612857eaae172ac7741d60382d1b6bb](https://user-images.githubusercontent.com/100133925/161907024-26bc4286-efe2-45e0-9ff3-086bca509a75.gif)
 
 # Assumptions
@@ -98,6 +99,8 @@ After selecting the best predictive model, the following table displays the squa
 
 ![twin-shoot-goal](https://user-images.githubusercontent.com/100133925/161907615-19883cab-446c-4765-aeb1-42aa6b51f87e.gif)
 ![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
+
+---
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
