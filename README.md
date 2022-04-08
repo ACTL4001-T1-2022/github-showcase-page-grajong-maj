@@ -148,10 +148,20 @@ After selecting the best predictive model, the following table displays the squa
 ---
 
 # Team Competitiveness 
+The tournament place data was appended onto the tournament stats for each team, and several regression models were tested to predict the tournament outcomes for the next ten years. The linear regression model had more variance explained than the regression tree, random forest and bagging models and was therefore chosen to model tournament placements. It is important to note that players may increase or decrease in skill levels each year, so randomness is applied to players’ statistics, which results in an improvement or decline. The average player peak is 30 years old (Dendir, 2016), therefore after the age of 30, they start to decline in ability by 5% per year. The average retirement age for soccer players is 35 (Kalen et.al, 2019) however, an assumption was that retirements were not accounted for. A more drastic decline of 10% was annexed to players aged over 35 to account for the severe decrease in skill beyond age 35.
+
+The graph below displays the projected tournament placements spanning from 2022-2032 for the top 25 nations with the addition of the newly formed Raritan National Team. The selected Raritan Team shows promising signs, with a predicted winning tournament in 2022, 2023, and 2024 which demonstrates the strength of the selected squad. Although the team was initially built for the short-term, it is still predicted to remain competitive for the next 10 years, being constantly in the top 5 rated national teams.
+
+<img src = "https://user-images.githubusercontent.com/100133925/162393161-d256d08d-34a3-49de-8789-83a7f0831883.png" width = "700">
+
+To predict the probability of winning the tournament, tournament results were changed to ‘Yes’ for a first-place result and ‘No’ for every other result, to build a model to predict the probability of winning the tournament i.e., coming first. The random forest model demonstrated the highest predictive capability and thus was chosen for this assigned task. The figure below shows the time series of the probability of winning the tournament and it can be seen that in 2032, the chance was the highest out of all years. Achieving a 25% predicted probability of winning is quite high considering the logistics involved in a soccer tournament. Only the best teams make it out of group stages to play in the knock-out stages and must win every single match to hoist the trophy.
 
 <img src="https://user-images.githubusercontent.com/100133925/162393272-6a2828cc-2206-4eb9-a5ba-550985007fef.png" width="500">
 
-<img src = "https://user-images.githubusercontent.com/100133925/162393161-d256d08d-34a3-49de-8789-83a7f0831883.png" width = "700">
+Through examining the forecasted tournament rankings and the chances of winning, it is evident that the selected Raritan National Soccer Team exemplifies a competitive nature in the present but also the mid to long-term future.
+
+## Effects of Competitive Team
+Building a competitive soccer team has major impacts on the economy and can generate vast amounts of revenue. For one, displaying a high level of soccer talent on the international stage will garner attention in the domestic Raritan League. From the SOA data, provided by Valani Global, the 2021 Tournament Place tended to show competitive teams with high league attendance, social media follower or both. For example, the nation of Southern Ristan, placing 6th in 2021, has an average league attendance of 66,984 making it one of the highest, but also has the most Facebook, Twitter, and Instagram followers. Similarly, Nganion, which placed 3rd in 2021, hosts 72,400 spectators on average in their league and has the second-most Facebook, Twitter, and Instagram followers. 
 
 ---
 
