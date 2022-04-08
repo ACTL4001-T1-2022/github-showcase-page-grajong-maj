@@ -23,7 +23,17 @@ The entire R code used for this case challenge can be obtained here(hyperlink)
 ---
 
 ## Data Cleaning
+The following summarises our data cleaning process prior to analysis:
 
+- Replace NA in 'Social Media' data
+- Remove 'Eastern Sleboube' from revenue and expenses due to missing expense data
+- 
+
+For code chunk
+
+```{r}
+CODE
+```
 
 ---
 
