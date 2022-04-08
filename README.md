@@ -13,6 +13,7 @@ This study aims to find the best Raritan soccer team from the combination of pla
 
 
 <img src="https://user-images.githubusercontent.com/100133925/161908801-c0bca66d-0d7b-4eb0-a368-cbfa7d98c699.gif" width = "100">
+
 ---
 
 ## Required packages
@@ -66,9 +67,11 @@ MSEreg<-mean((actualgoal-regpredictgoal)^2)
 | Boosting | 0.002787388 |
 
 The table above shows the calculated mean-squared errors for each model on predicting the best goalkeepers and the worst model appeared to be the lasso regression.
+
 <img src="https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif" width = "100">
 
 However, boosting had the lowest MSE and therefore was the best predictive model for selecting goalkeepers for the national team. The process was repeated for each position, with slight adjustments. 
+
 ---
 
 # Team Selection :soccer:
@@ -132,13 +135,16 @@ After selecting the best predictive model, the following table displays the squa
 ![image](https://user-images.githubusercontent.com/100133925/162393161-d256d08d-34a3-49de-8789-83a7f0831883.png)
 
 ---
+
 # Economic Impact 
 ![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
 
 ---
+
 # Implementation Plan 
 
 ---
+
 # Assumptions
 ## Key Team Assumptions
 - Team formation would be 3 forwards, 3 midfielders, 4 defenders and 1 goalkeeper.
