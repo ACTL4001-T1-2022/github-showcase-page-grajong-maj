@@ -47,10 +47,24 @@ MSEreg<-mean((actualgoal-regpredictgoal)^2)
 
 ### Lasso Regression
 
-The lasso is an extension on regression models and to find the coefficient estimates maximise the following: 
-\sum_{i=1}^{n}{\left(y_i{(\beta}_0+\sum_{j=1}^{p}{\beta_jx_{ij})-log(1+e^{{(\beta}_0+\sum_{j=1}^{p}{\beta_jx_{ij})}})}\right)+\ \lambda\sum_{j=1}^{p}\left|\beta_j^\ \right|}
+The lasso is an extension on regression models which utilises a shrinkage penalty to tend coefficients towards zero. Therefore, lasso performs variable selection because predictor variables are ignored due to the coefficient estimate becoming zero. 
 
-The above equaiton is the log-likelihood of the regression with a shrinkage penalty, 
+```{r} 
+#Lasso Regression
+grid <- 10^seq(10, -5, length = 100)
+lassodata <- model.matrix(Performance.Save. ~ . , trainset)[,-6]
+lassogoal <- glmnet(lassodata, trainset$Performance.Save., alpha = 1, lambda = grid)
+plot(lassogoal, xvar = "lambda")
+    #Determining optimal lambda value for ridge regression
+cvlasso <- cv.glmnet(lassodata, trainset$Performance.Save., alpha = 1)
+plot(cvlasso, xvar = "lambda")
+bestlam <- cvlasso$lambda.min
+    #Lasso regression MSE calculation
+lassotestdata <- model.matrix(Performance.Save. ~ ., testset)[,-6]
+lassopredictgoal<-predict(cvlasso, newx = lassotestdata)
+MSElasso <- mean((actualgoal-lassopredictgoal)^2)
+
+```
 
 ### Regression Trees
 
