@@ -23,28 +23,28 @@ The entire R code used for this case challenge can be obtained here(hyperlink)
 ---
 
 ## Data Cleaning
-The following summarises our data cleaning process prior to analysis:
+The following summarises our data cleaning process for all data sets prior to analysis:
 - Replace NA in 'Social Media' data.
 - Remove 'Eastern Sleboube' from revenue and expenses due to missing expense data.
-- Take the absolute value of all variables excluding 'Player', 'Nation', 'Pos', 'Squad', and 'League'.
-- Remove outlier entries (considered to be those entries >1.05, as they are no longer due to rounding errors)
-- 
+- Take the absolute value of all variables excluding 'Player', 'Nation', 'Pos', 'Squad', and 'League' for all player data sets.
 
+The following changes in player data include the league and tournament data sets.
 ### Shooting Data
-- Remove certain variables including 'Standard.Dist', 'Standard.FK', 'Expected.xG', 'Expected.npxG', 'Expected.npxG.Sh', 'Expected.G.xG', 'Expected.np.G.xG' from shooting data due to excessive amounts of missing values.
-- 
+- Remove certain variables including 'Standard Dist', 'Standard FK', 'Expected xG', 'Expected npxG', 'Expected npxG/Sh', 'Expected G-xG', 'Expected np:G-xG' from shooting data due to excessive amounts of missing values.
+- Remove outlier entries (considered to be those entries >1.05, as they are no longer due to rounding errors) for 'Standard SoT%'.
+- Remove any remaining NA values in 'Standard SoT%', 'Standard G/Sh', and 'Standard G/SoT'.
 
 ### Passing data
 - Recalculate 'Total Cmp%', 'Short Cmp%', 'Medium Cmp%','Long Cmp%' and 'A-xA'
-- 
+- Remove outlier entries for the recalculated variables excluding 'A-xA'.
 
 ### Defense Data
 - Recalculate 'Vs Dribbles Tkl%' and 'Pressures %'
-- 
+- Remove outlier entries for the recalculated variables.
 
 ### Goalkeeping Data
 - Recalculate 'Performance Save%' and 'Performance CS%
-- 
+- Remove outlier entries for the recalculated variables.
 
 For code chunk
 
