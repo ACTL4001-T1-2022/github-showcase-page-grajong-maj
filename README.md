@@ -13,14 +13,62 @@ This study aims to find the best Raritan soccer team from the combination of pla
 
 
 <img src="https://user-images.githubusercontent.com/100133925/161908801-c0bca66d-0d7b-4eb0-a368-cbfa7d98c699.gif" width = "100">
+---
 
+## Required packages
+
+The entire R code used for this case challenge can be obtained here(hyperlink)
+
+---
+
+## Data Cleaning
+
+
+---
 
 ## Modelling 
 
+Several models were used and to demonstrate the modelling process, we will look at goalkeepers specifically. Linear regression, lasso regression, regression trees, random forests, bagging and boosting. 
 
+### Linear Regression
+Multiple linear regression describes the relationship between a response variable and multiple predictor variables. The regression is performed on the football player data to predict which player in each position is the most effective. The other statistics except the one chosen to evaluate player talent, is used as the predictors. 
+```{r}
+  #Regression
+regressiongoal <- lm(Performance.Save. ~., data = trainset)
+summary(regressiongoal)
+    #Regression MSE calculation
+regpredictgoal <- predict(regressiongoal, testset)
+actualgoal <- testset$Performance.Save.
+MSEreg<-mean((actualgoal-regpredictgoal)^2)
+```
+
+
+
+### Lasso Regression
+
+### Regression Trees
+
+### Random Forests
+
+### Bagging
+
+### Boosting
+
+### Comparing Models
+
+| Mean-Squared Error | Value |
+| :---: | :---: |
+| Linear Regression | 0.006062906 |
+| Lasso Regression | 0.01102361 |
+| Regression Trees | 0.006640703 |
+| Random Forests | 0.006299187 |
+| Bagging | 0.003587406|
+| Boosting | 0.002787388 |
+
+The table above shows the calculated mean-squared errors for each model on predicting the best goalkeepers and the worst model appeared to be the lasso regression.
 <img src="https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif" width = "100">
 
-
+However, boosting had the lowest MSE and therefore was the best predictive model for selecting goalkeepers for the national team. The process was repeated for each position, with slight adjustments. 
 ---
 
 # Team Selection :soccer:
@@ -77,8 +125,20 @@ After selecting the best predictive model, the following table displays the squa
 
 ---
 
-![e612857eaae172ac7741d60382d1b6bb](https://user-images.githubusercontent.com/100133925/161907024-26bc4286-efe2-45e0-9ff3-086bca509a75.gif)
+# Team Competitiveness 
 
+![image](https://user-images.githubusercontent.com/100133925/162393272-6a2828cc-2206-4eb9-a5ba-550985007fef.png)
+
+![image](https://user-images.githubusercontent.com/100133925/162393161-d256d08d-34a3-49de-8789-83a7f0831883.png)
+
+---
+# Economic Impact 
+![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
+
+---
+# Implementation Plan 
+
+---
 # Assumptions
 ## Key Team Assumptions
 - Team formation would be 3 forwards, 3 midfielders, 4 defenders and 1 goalkeeper.
@@ -125,7 +185,7 @@ place2022 <- place2022 %>% mutate(Place = rank(place2022[,1])) %>%  select(Place
 - No 2020 data was provided for the tournament passing and defending data sets, therefore the training sets involving passing and defending data only incorporated league values.
 
 ![twin-shoot-goal](https://user-images.githubusercontent.com/100133925/161907615-19883cab-446c-4765-aeb1-42aa6b51f87e.gif)
-![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
+
 
 ---
 
