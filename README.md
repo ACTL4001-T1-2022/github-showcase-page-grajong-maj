@@ -130,9 +130,9 @@ After selecting the best predictive model, the following table displays the squa
 
 # Team Competitiveness 
 
-![image](https://user-images.githubusercontent.com/100133925/162393272-6a2828cc-2206-4eb9-a5ba-550985007fef.png)
+<img src="https://user-images.githubusercontent.com/100133925/162393272-6a2828cc-2206-4eb9-a5ba-550985007fef.png" width="500">
 
-![image](https://user-images.githubusercontent.com/100133925/162393161-d256d08d-34a3-49de-8789-83a7f0831883.png)
+<img src = "https://user-images.githubusercontent.com/100133925/162393161-d256d08d-34a3-49de-8789-83a7f0831883.png" width = "500">
 
 ---
 
