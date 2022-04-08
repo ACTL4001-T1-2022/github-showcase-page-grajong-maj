@@ -27,7 +27,7 @@ The entire R code used for this case challenge can be obtained here(hyperlink)
 
 ---
 
-## Modelling 
+# Modelling 
 
 Several models were used and to demonstrate the modelling process, we will look at goalkeepers specifically. Linear regression, lasso regression, regression trees, random forests, bagging and boosting. 
 
