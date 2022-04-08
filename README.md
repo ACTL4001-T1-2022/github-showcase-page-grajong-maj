@@ -158,7 +158,7 @@ To predict the probability of winning the tournament, tournament results were ch
 
 <img src="https://user-images.githubusercontent.com/100133925/162393272-6a2828cc-2206-4eb9-a5ba-550985007fef.png" width="500">
 
-Through examining the forecasted tournament rankings and the chances of winning, it is evident that the selected Raritan National Soccer Team exemplifies a competitive nature in the present but also the mid to long-term future.
+Through examining the forecasted tournament rankings and the chances of winning, it is evident that the selected Raritan National Soccer Team exemplifies a competitive nature in the present but also for the mid to long-term future.
 
 ## Effects of Competitive Team
 Building a competitive soccer team has major impacts on the economy and can generate vast amounts of revenue. For one, displaying a high level of soccer talent on the international stage will garner attention in the domestic Raritan League. From the SOA data, provided by Valani Global, the 2021 Tournament Place tended to show competitive teams with high league attendance, social media follower or both. For example, the nation of Southern Ristan, placing 6th in 2021, has an average league attendance of 66,984 making it one of the highest, but also has the most Facebook, Twitter, and Instagram followers. Similarly, Nganion, which placed 3rd in 2021, hosts 72,400 spectators on average in their league and has the second-most Facebook, Twitter, and Instagram followers. 
