@@ -47,6 +47,11 @@ MSEreg<-mean((actualgoal-regpredictgoal)^2)
 
 ### Lasso Regression
 
+The lasso is an extension on regression models and to find the coefficient estimates maximise the following: 
+\sum_{i=1}^{n}{\left(y_i{(\beta}_0+\sum_{j=1}^{p}{\beta_jx_{ij})-log(1+e^{{(\beta}_0+\sum_{j=1}^{p}{\beta_jx_{ij})}})}\right)+\ \lambda\sum_{j=1}^{p}\left|\beta_j^\ \right|}
+
+The above equaiton is the log-likelihood of the regression with a shrinkage penalty, 
+
 ### Regression Trees
 
 ### Random Forests
