@@ -14,7 +14,11 @@ This study aims to find the best Raritan soccer team from the combination of pla
 
 <img src="https://user-images.githubusercontent.com/100133925/161908801-c0bca66d-0d7b-4eb0-a368-cbfa7d98c699.gif" width = "100">
 
-![sad-boy-crying](https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif)
+
+## Modelling 
+
+
+<img src="https://user-images.githubusercontent.com/100133925/161882942-fea4f1ae-72ba-41d4-8778-28c4f18e594f.gif" width = "100">
 
 
 ---
@@ -81,6 +85,30 @@ After selecting the best predictive model, the following table displays the squa
 - The players would be playing at a similar level relative to their 2020 and 2021 statistics.
 - Squad of 23 in total as per FIFA 2022 world cup regulations. This includes a required 3 goalkeepers.
 - Players would peak at 30 and start to decline afterwards. Retirement was not considered. When the players reached 35, the average age of retirement (Waihenya, 2021), a larger decline in the players' abilities were accounted for.
+
+This is how we coded player skill adjustments over years. For example the change from 2021 to 2022 is shown below. 
+```{r}
+##-----------2022 Tournament stats----------
+set.seed(0)
+tstats2022 <- tstats2021 %>% mutate(Age=Age+1) %>% mutate(Year=2022)
+for(i in 1:nrow(tstats2022)){
+  AGE<-tstats2022[i,]$Age
+  if(AGE<=30){
+    tstats2022[i,5:9]<-tstats2022[i,5:9]*rnorm(1,1,0.05)
+  } else if(AGE>30 & AGE <= 35) {
+    tstats2022[i,5:9]<-tstats2022[i,5:9]*0.95
+  } else {
+    tstats2022[i,5:9]<-tstats2022[i,5:9]*0.9
+  }
+}
+Teams2022 <- data.frame(aggregate(tstats2022[,5:9], list(tstats2022$Nation), mean, na.rm=T))
+rownames(Teams2022) <- Teams2022$Group.1
+Teams2022 <- Teams2022[,-1]
+Teams2022[is.na(Teams2022)]<-DosqalyGK
+place2022 <- data.frame(predict(place.reg, newdata=Teams2022, type = "response"))
+place2022 <- place2022 %>% mutate(Place = rank(place2022[,1])) %>%  select(Place)
+
+```
 
 ## Other Assumptions
 - Negative values in the data set did not make statistical sense (negative wins, goals, etc.). Took absolute values of all negative data values.
