@@ -214,6 +214,8 @@ However, boosting had the lowest MSE and therefore was the best predictive model
 
 # Team Selection :soccer:
 
+![d468d418543a862e2f3aabd574359714](https://user-images.githubusercontent.com/100133925/162569750-cfb25f59-c78b-4eae-bbd0-1f523322ed17.gif)
+
 By examining FIFA teams, we found that the most effective team entails a formation that includes 4 defenders, 3 midfielders, 3 forwards and 1 goalkeeper. Since there is a loaning fee for international players, the team only includes the best players from the Raritan nation due to financial reasons. As per FIFA 2022 World Cup regulations, a squad of **23** must be chosen with **3 goalkeepers**. An extra substitute for all other 10 positions is also included to round out the 23-player squad. To choose the best players in each role, a wide variety of modelling techniques were implemented. These include linear regression, lasso regression, regression trees, bagging, random forest and boosting. 
 
 After comparing all the models by examining their mean-squared-error, the best model was chosen for each statistic (defending, passing, shooting, goalkeeping) and implemented to rank the players. Players are given different points based on how well they performed in each statistic, and they are ranked accordingly, and the highest-rated players are selected for the Raritan Team. 
@@ -235,6 +237,8 @@ After comparing all the models by examining their mean-squared-error, the best m
 
 
 ## National Team 🏴
+
+![all-star-fergie](https://user-images.githubusercontent.com/100133925/162569704-910f1c71-8985-4fa5-aa57-20f67cbab79c.gif)
 
 After selecting the best predictive model, the following table displays the squad of **23** chosen for the Raritan National Team. This is the squad that will suit up for the international tournament. 
 
@@ -267,6 +271,10 @@ After selecting the best predictive model, the following table displays the squa
 ---
 
 # Team Competitiveness 
+
+![200w](https://user-images.githubusercontent.com/100133925/162569761-41b8e94f-a08e-4696-84f2-79aa84f780b7.gif)
+
+
 The tournament place data was appended onto the tournament stats for each team, and several regression models were tested to predict the tournament outcomes for the next ten years. The linear regression model had more variance explained than the regression tree, random forest and bagging models and was therefore chosen to model tournament placements. It is important to note that players may increase or decrease in skill levels each year, so randomness is applied to players’ statistics, which results in an improvement or decline. The average player peak is 30 years old (Dendir, 2016), therefore after the age of 30, they start to decline in ability by 5% per year. The average retirement age for soccer players is 35 (Kalen et.al, 2019) however, an assumption was that retirements were not accounted for. A more drastic decline of 10% was annexed to players aged over 35 to account for the severe decrease in skill beyond age 35.
 
 The graph below displays the projected tournament placements spanning from 2022-2032 for the top 25 nations with the addition of the newly formed Raritan National Team. The selected Raritan Team shows promising signs, with a predicted winning tournament in 2022, 2023, and 2024 which demonstrates the strength of the selected squad. Although the team was initially built for the short-term, it is still predicted to remain competitive for the next 10 years, being constantly in the top 5 rated national teams.
