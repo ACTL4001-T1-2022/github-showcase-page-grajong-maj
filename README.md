@@ -101,6 +101,9 @@ ggcorrplot(correlation[,23:1])
 ```
 
 ### Further Cleaning
+
+<img src="https://user-images.githubusercontent.com/100197722/162580875-2cb1d98c-3785-4287-9f44-0e11ddfff41c.gif" width = "200">
+
 - The original tournament and league data sets were combined for shooting, passing, defense, and goalkeeping.
 - Since the defenders were selected based on their ability to pass and defend (refer to the table in Team Selection section), a new data set was created by merging the passing and defending data sets.
 - This data set was then filtered for any player that can perform in the defender position.
