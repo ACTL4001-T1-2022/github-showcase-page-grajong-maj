@@ -40,7 +40,7 @@ library(mice)
 
 ```
 
-The entire R code used for this case challenge can be obtained here [code](assignment%20code.R)
+The entire R code used for this case challenge can be obtained [here](assignment%20code.R).
 
 ---
 
