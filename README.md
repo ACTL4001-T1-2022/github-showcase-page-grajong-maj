@@ -46,6 +46,9 @@ The entire R code used for this case challenge can be obtained [here](assignment
 ---
 
 ## Data Cleaning
+
+<img src="https://user-images.githubusercontent.com/100133925/162569542-4428cec3-a430-4716-939d-101a08172e4d.gif" width = "200">
+
 The following summarises our data cleaning process for all data sets prior to analysis:
 - Replace NA in 'Social Media' data.
 - Remove 'Eastern Sleboube' from revenue and expenses due to missing expense data.
@@ -78,6 +81,9 @@ CODE
 ---
 
 # Modelling 
+
+<img src="https://user-images.githubusercontent.com/100133925/162569585-4a4a04b6-515d-476a-82de-df682d5d19c3.gif" width ="200">
+
 
 Several models were used and to demonstrate the modelling process, we will look at goalkeepers specifically. Linear regression, lasso regression, regression trees, random forests, bagging and boosting. 
 
