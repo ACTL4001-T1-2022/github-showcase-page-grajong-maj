@@ -118,11 +118,78 @@ MSElasso <- mean((actualgoal-lassopredictgoal)^2)
 
 ### Regression Trees
 
+The algorithm implemented to build a classification tree is as follows (James et.al, 2013); 
+1.	Use recursive binary splitting to grow a tree based on the training data.
+2.	Stop this process only when each terminal node has less than some minimum number of observations. 
+3.	Prune the large tree to get the best subtrees, as a function of α.
+4.	Apply K-fold cross validation methods to pick the best α, using a variety of different K-folds.  
+5.	Return the subtree that relates to the best value of α in step 4. 
+
+```{r} 
+  #Regression Tree
+treegoal <- rpart(Performance.Save. ~ ., trainset, cp = 0.001, method = "anova")
+rpart.plot(treegoal, box.palette = "GnRd", yesno = 2, split.border.col = 1, split.round = 1)
+plotcp(treegoal)
+    #Regression tree MSE calculation
+treepredictgoal<-predict(treegoal, testset)
+MSEtree <- mean((actualgoal-treepredictgoal)^2)
+
+```
+
+
 ### Random Forests
+
+Random forests are an extension of regression trees, in which a multitude of individual trees are constructed and work together in union to make a more precise prediction.
+
+```{r} 
+  #Random Forest
+rfgoal <- randomForest(Performance.Save. ~ ., data = trainset, mtry = sqrt(ncol(trainset)), importance = TRUE)
+    #Variable importance for random forest model
+vip(rfgoal, num_features = ncol(trainset) - 1, aesthetics =
+      list(fill = colorRampPalette(rev(brewer.pal(5, "Blues")))(ncol(trainset) - 1)))+
+  theme_classic()
+    #Random forest MSE calculation
+rfpredictgoal<-predict(rfgoal, testset)
+MSErf<-mean((actualgoal-rfpredictgoal)^2)
+
+```
 
 ### Bagging
 
+Bagging is an extension of the simple classification tree whereby it creates several (B number of them) different bootstrapped training data sets. The model is then trained on the bth bootstrapped set and then averaged to achieve the following equation:
+![image](https://user-images.githubusercontent.com/100172902/162564852-6a3783a7-574e-4a70-8b4a-27c095cabaf5.png)
+
+```{r} 
+  #Bagging
+baggoal <- randomForest(Performance.Save. ~ ., data = trainset, mtry = (ncol(trainset)-1),importance = TRUE)
+    #Variable importance for bagging
+vip(baggoal, num_features = ncol(trainset) - 1, aesthetics =
+      list(fill = colorRampPalette(rev(brewer.pal(5, "Blues")))(ncol(trainset) - 1)))+
+  theme_classic()
+    #Bagging MSE calculation
+bagpredictgoal <- predict(baggoal, testset)
+MSEbag<-mean((actualgoal-bagpredictgoal)^2)
+
+
+```
+
 ### Boosting
+
+The boosting extension of classification trees involves slowly fitting more trees to the current residuals rather than the outcome Y. This addition will update the residuals and gradually make improvements to the model in places where it may not perform well.
+
+```{r} 
+  #Boosting
+boostgoal <- gbm(Performance.Save. ~ ., data = trainset, 
+                  n.trees = 1000, interaction.depth = 5, cv.folds = 10)
+    #Variable importance for boosting
+vip(boostgoal, num_features = ncol(trainset) - 1, aesthetics =
+      list(fill = colorRampPalette(rev(brewer.pal(5, "Blues")))(ncol(trainset) - 1)))+
+  theme_classic()
+    #Boosting MSE calculation
+bestboost <- gbm.perf(boostgoal, method = "cv")
+boostpredictgoal <- predict(boostgoal, newdata = testset, n.trees = bestboost)
+MSEboost <- mean((actualgoal-boostpredictgoal)^2)
+```
 
 ### Comparing Models
 
