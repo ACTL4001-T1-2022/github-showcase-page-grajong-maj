@@ -413,11 +413,6 @@ As discussed prior, performing at a high level internationally can have major po
 ---
 
 # Implementation Plan 
-The team chosen includes the following players:
-![image](https://user-images.githubusercontent.com/100172902/162564432-750588b2-d856-4fb3-b34f-708683b3e336.png)
-
-The team comprises of 23 players (11 starters, 12 substitutes) and has a total salary of ∂176,350,000 annually. 
-The primary source of revenue for the team will be the ∂995,000,000 allocation from the government. Given our annual salary will use up this funding over the 10 years, additional sources of funding will come from sponsorships, discussed below, and reinvesting a portion of annual profits into the team.
 
 ![image](https://user-images.githubusercontent.com/63340904/162564597-59287a44-3362-487d-aee8-967db3bec310.png)
 
