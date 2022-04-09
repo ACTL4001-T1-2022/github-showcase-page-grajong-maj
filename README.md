@@ -18,7 +18,29 @@ This study aims to find the best Raritan soccer team from the combination of pla
 
 ## Required packages
 
-The entire R code used for this case challenge can be obtained here(hyperlink)
+```{r}
+#Installing relevant packages
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(ggcorrplot)
+library(glmnet)
+library(tree)
+library(rpart)
+library(rpart.plot)
+library(randomForest)
+library(gbm)
+library(vip)
+library(RColorBrewer)
+library(forecast)
+library(xts)
+library(data.table)
+library(tidyr)
+library(mice)
+
+```
+
+The entire R code used for this case challenge can be obtained here [code](assignment%20code.R)
 
 ---
 
