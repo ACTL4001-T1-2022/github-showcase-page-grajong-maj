@@ -351,6 +351,9 @@ As discussed prior, performing at a high level internationally can have major po
 ---
 
 # Implementation Plan 
+This proposal is an outline of the timeline for the first year of the team launch. It examines the formation of the team and sources of revenues which includes liaising with sponsors, setting up merchandise for sale to fans and increased social media presence to gain awareness and support for the team. 
+For the later 9 years, monitoring individual players/main team progress occurs from January-October since we have assumed that tournaments are held in November. Liaising with sponsors will occur constantly and setting up merchandise will occur from January to October of each year to gain revenue. Meanwhile, social media promotion will always be held 3 months in advance of the tournament for each year.
+
 
 ---
 
