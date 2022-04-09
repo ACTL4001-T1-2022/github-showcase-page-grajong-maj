@@ -214,7 +214,7 @@ However, boosting had the lowest MSE and therefore was the best predictive model
 
 # Team Selection :soccer:
 
-<img src="https://user-images.githubusercontent.com/100133925/162569750-cfb25f59-c78b-4eae-bbd0-1f523322ed17.gif", width = "100">
+<img src="https://user-images.githubusercontent.com/100133925/162569750-cfb25f59-c78b-4eae-bbd0-1f523322ed17.gif" width = "100">
 
 By examining FIFA teams, we found that the most effective team entails a formation that includes 4 defenders, 3 midfielders, 3 forwards and 1 goalkeeper. Since there is a loaning fee for international players, the team only includes the best players from the Raritan nation due to financial reasons. As per FIFA 2022 World Cup regulations, a squad of **23** must be chosen with **3 goalkeepers**. An extra substitute for all other 10 positions is also included to round out the 23-player squad. To choose the best players in each role, a wide variety of modelling techniques were implemented. These include linear regression, lasso regression, regression trees, bagging, random forest and boosting. 
 
@@ -442,7 +442,7 @@ For the later 9 years, monitoring individual players/main team progress occurs f
 
 # Assumptions
 
-<img src="https://user-images.githubusercontent.com/100133925/162569816-731aed33-a8b4-4956-bb41-6874b3a33f2a.gif)" width="250">
+<img src="https://user-images.githubusercontent.com/100133925/162569816-731aed33-a8b4-4956-bb41-6874b3a33f2a.gif" width="250">
 
 ## Key Team Assumptions
 - Team formation would be 3 forwards, 3 midfielders, 4 defenders and 1 goalkeeper.
