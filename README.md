@@ -113,7 +113,6 @@ bestlam <- cvlasso$lambda.min
 lassotestdata <- model.matrix(Performance.Save. ~ ., testset)[,-6]
 lassopredictgoal<-predict(cvlasso, newx = lassotestdata)
 MSElasso <- mean((actualgoal-lassopredictgoal)^2)
-
 ```
 
 ### Regression Trees
@@ -133,7 +132,6 @@ plotcp(treegoal)
     #Regression tree MSE calculation
 treepredictgoal<-predict(treegoal, testset)
 MSEtree <- mean((actualgoal-treepredictgoal)^2)
-
 ```
 
 
@@ -151,7 +149,6 @@ vip(rfgoal, num_features = ncol(trainset) - 1, aesthetics =
     #Random forest MSE calculation
 rfpredictgoal<-predict(rfgoal, testset)
 MSErf<-mean((actualgoal-rfpredictgoal)^2)
-
 ```
 
 ### Bagging
@@ -169,8 +166,6 @@ vip(baggoal, num_features = ncol(trainset) - 1, aesthetics =
     #Bagging MSE calculation
 bagpredictgoal <- predict(baggoal, testset)
 MSEbag<-mean((actualgoal-bagpredictgoal)^2)
-
-
 ```
 
 ### Boosting
