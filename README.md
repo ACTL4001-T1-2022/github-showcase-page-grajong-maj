@@ -107,6 +107,8 @@ ggcorrplot(correlation[,23:1])
 - Similarly, the midfielders were selected based on their ability to shoot, defend, and pass, so a new data set was created by merging the passing, defending, and shooting data sets.
 - This data set was then filtered for any player that can perform in the midfielder position.
 
+At this point, there are four data sets, combined (tournament and league) data sets for shooting and goalkeeping, and the two data sets described above.
+
 ### Selecting Variables for Modelling
 - Variables were selected from each of the four data sets based on the correlation matrix.
 - The R-code for variable selection using goalkeeping data is shown below.
