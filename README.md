@@ -351,6 +351,11 @@ As discussed prior, performing at a high level internationally can have major po
 ---
 
 # Implementation Plan 
+The team chosen includes the following players:
+
+The team comprises of 23 players (11 starters, 12 substitutes) and has a total salary of ∂176,350,000 annually. 
+The primary source of revenue for the team will be the ∂995,000,000 allocation from the government. Given our annual salary will use up this funding over the 10 years, additional sources of funding will come from sponsorships, discussed below, and reinvesting a portion of annual profits into the team.
+
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/100172902/162564251-ee95ef51-7c00-4662-b56d-d1fe109699a9.png">
 This proposal is an outline of the timeline for the first year of the team launch. It examines the formation of the team and sources of revenues which includes liaising with sponsors, setting up merchandise for sale to fans and increased social media presence to gain awareness and support for the team. 
 For the later 9 years, monitoring individual players/main team progress occurs from January-October since we have assumed that tournaments are held in November. Liaising with sponsors will occur constantly and setting up merchandise will occur from January to October of each year to gain revenue. Meanwhile, social media promotion will always be held 3 months in advance of the tournament for each year.
