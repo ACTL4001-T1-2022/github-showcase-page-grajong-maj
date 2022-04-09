@@ -52,7 +52,13 @@ The entire R code used for this case challenge can be obtained [here](assignment
 The following summarises our data cleaning process for all data sets prior to analysis:
 - Replace NA in 'Social Media' data.
 - Remove 'Eastern Sleboube' from revenue and expenses due to missing expense data.
-- Take the absolute value of all variables excluding 'Player', 'Nation', 'Pos', 'Squad', and 'League' for all player data sets.
+- Take the absolute value of all variables excluding 'Player', 'Nation', 'Pos', 'Squad', and 'League' for all player data sets. The R-code for league goalkeeping data is shown below.
+
+```{r}
+temp <- lgoal[c("Player","Nation","Pos","Squad","League")]
+lgoal <- abs(lgoal[,!names(lgoal) %in% c("Player","Nation","Pos","Squad","League")])
+lgoal <- data.frame(temp,lgoal)
+```
 
 The following changes in player data include the league and tournament data sets.
 ### Shooting Data
@@ -60,7 +66,7 @@ The following changes in player data include the league and tournament data sets
 - Remove outlier entries (considered to be those entries >1.05, as they are no longer due to rounding errors) for 'Standard SoT%'.
 - Remove any remaining NA values in 'Standard SoT%', 'Standard G/Sh', and 'Standard G/SoT'.
 
-### Passing data
+### Passing Data
 - Recalculate 'Total Cmp%', 'Short Cmp%', 'Medium Cmp%','Long Cmp%' and 'A-xA'
 - Remove outlier entries (same condition as aobve) for the recalculated variables excluding 'A-xA'.
 
@@ -72,6 +78,7 @@ The following changes in player data include the league and tournament data sets
 - Recalculate 'Performance Save%' and 'Performance CS%
 - Remove outlier entries (same condition as aobve) for the recalculated variables.
 
+### Correlation Matrix
 Duplicate league and tournament data sets for shooting, passing, defense, and goalkeeping were created to maintain the original version for later use. The duplicate datasets were modified to visualise the correlation between the variables themselves, but also to visualise the correlation between the variables and tournament placement.
 - Tournament placement was added to the tournament data sets for the corresponding years (2020 and 2021).
 - Replace any NA in 'Tournament Place' with 25, assuming that NA means the team did not qualify so they placed last.
@@ -93,14 +100,26 @@ correlation<-cor(tgoalkek[,unlist(lapply(tgoalkek, is.numeric))])
 ggcorrplot(correlation[,23:1])
 ```
 
-- The original tournament and league data were combined for shooting, passing, defense, and goalkeeping.
-- 
+### Further Cleaning
+- The original tournament and league data sets were combined for shooting, passing, defense, and goalkeeping.
+- Since the defenders were selected based on their ability to pass and defend, a new data set was created by merging the passing and defending data sets.
+- This data set was then filtered for any player that can perform in the defender position.
+- Similarly, the midfielders were selected based on their ability to shoot, defend, and pass, so a new data set was created by merging the passing, defending, and shooting data sets.
+- This data set was then filtered for any player that can perform in the midfielder position.
 
-For code chunk
+### Selecting Variables for Modelling
+- Variables were selected from each of the four data sets based on the correlation matrix.
+- The R-code for variable selection using goalkeeping data is shown below.
 
 ```{r}
-CODE
+cgoalmodel <- cgoal %>%
+  select(Age,Playing.Time.Min,Performance.GA,Performance.SoTA,Performance.Saves,Performance.Save.,W,D,L,
+         Performance.CS.,Penalty.Kicks.PKA,Penalty.Kicks.PKsv,Penalty.Kicks.PKm)
 ```
+
+### Train and Test Data Split
+- The final data sets were filtered by year. 2020 was used for the training set and 2021 was used for the test set excluding Raritan players.
+- Another data set was created for the Raritan players. This data set was used to predict the performance of each Raritan player after selecting the final model.
 
 ---
 
