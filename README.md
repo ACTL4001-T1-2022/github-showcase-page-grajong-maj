@@ -214,7 +214,7 @@ However, boosting had the lowest MSE and therefore was the best predictive model
 
 # Team Selection :soccer:
 
-![d468d418543a862e2f3aabd574359714](https://user-images.githubusercontent.com/100133925/162569750-cfb25f59-c78b-4eae-bbd0-1f523322ed17.gif)
+<img src="https://user-images.githubusercontent.com/100133925/162569750-cfb25f59-c78b-4eae-bbd0-1f523322ed17.gif", width = "100">
 
 By examining FIFA teams, we found that the most effective team entails a formation that includes 4 defenders, 3 midfielders, 3 forwards and 1 goalkeeper. Since there is a loaning fee for international players, the team only includes the best players from the Raritan nation due to financial reasons. As per FIFA 2022 World Cup regulations, a squad of **23** must be chosen with **3 goalkeepers**. An extra substitute for all other 10 positions is also included to round out the 23-player squad. To choose the best players in each role, a wide variety of modelling techniques were implemented. These include linear regression, lasso regression, regression trees, bagging, random forest and boosting. 
 
@@ -236,9 +236,7 @@ After comparing all the models by examining their mean-squared-error, the best m
 
 
 
-## National Team 🏴
-
-![all-star-fergie](https://user-images.githubusercontent.com/100133925/162569704-910f1c71-8985-4fa5-aa57-20f67cbab79c.gif)
+## National Team 🏴 <img src ="https://user-images.githubusercontent.com/100133925/162569704-910f1c71-8985-4fa5-aa57-20f67cbab79c.gif" width ="50">
 
 After selecting the best predictive model, the following table displays the squad of **23** chosen for the Raritan National Team. This is the squad that will suit up for the international tournament. 
 
@@ -293,7 +291,7 @@ Through examining the forecasted tournament rankings and the chances of winning,
 ---
 
 # Economic Impact 
-![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
+<img src="https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif" width = "150">
 
 To assess the impact of the proposed implementation plan on the Raritan economy, GDP, GNI, revenues, expenses and profit/loss were all forecast over the next 10 years using a variety of models. All graphs shown are on a per-capita basis, the profit/loss table gives an overall national value. The dark and light blue ranges give 80 and 95% confidence intervals respectively. Note that multiple models were tested for each forecast, however only the best model is shown here.
 
@@ -443,6 +441,9 @@ For the later 9 years, monitoring individual players/main team progress occurs f
 ---
 
 # Assumptions
+
+<img src="https://user-images.githubusercontent.com/100133925/162569816-731aed33-a8b4-4956-bb41-6874b3a33f2a.gif)" width="250">
+
 ## Key Team Assumptions
 - Team formation would be 3 forwards, 3 midfielders, 4 defenders and 1 goalkeeper.
 - The players would be playing at a similar level relative to their 2020 and 2021 statistics.
