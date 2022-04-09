@@ -221,7 +221,93 @@ Building a competitive soccer team has major impacts on the economy and can gene
 # Economic Impact 
 ![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
 
-To assess the impact of the proposed implementation plan on the Raritan economy, GDP, GNI, revenues, expenses and profit/loss were all forecast over the next 10 years using a variety of models. All graphs shown are on a per-capita basis, the profit/loss table gives an overall national value.
+To assess the impact of the proposed implementation plan on the Raritan economy, GDP, GNI, revenues, expenses and profit/loss were all forecast over the next 10 years using a variety of models. All graphs shown are on a per-capita basis, the profit/loss table gives an overall national value. The dark and light blue ranges give 80 and 95% confidence intervals respectively. Note that multiple models were tested for each forecast, however only the best model is shown here.
+
+The forecast for Raritan GDP was performed using an ARIMA(0,1,0) model with drift. The impact on the GDP of the individual Raritan provinces (East, West and Central) was predicted to be similar in nature to the effect on the overall Raritan GDP. The R-code for this forecast and the produced graph are shown below.
+
+```{r}
+    #Rarita GDP
+      #Changing GDP table to a suitable format for forecasting
+rgdp <- gdp %>%
+  select(c('Rarita')) #extracting Rarita GDP data from table
+rgdpts <- ts(rgdp,frequency = 1,start=2011)
+
+rgdpfit <- auto.arima(rgdpts) #auto ARIMA function fitted an ARIMA(0,1,0) with drift
+autoplot(forecast(rgdpfit,h=10)) + 
+  ggtitle('Forecasted Raritan GDP from 2021-2030') +
+  xlab('Year') +
+  ylab('GDP') +
+  theme_bw()
+
+```
+![image](https://user-images.githubusercontent.com/63340904/162554875-41cdaa78-dc92-43ad-adad-5f2238a76287.png)
+
+The code for the provincial forecasts was similar in nature to the above code, with the exception of Central Rarita which was forecast using an ETS(AAN) model.
+
+Raritan GNI was forecast in a similar manner to GDP, however here an ETS(AAN) model was used. Similar benefits were forecast for the individual provinces. Relevant code and graph are provided below.
+
+```{r}
+    #Rarita GNI
+      #Changing GNI table to a suitable format for forecasting
+rgni <- gni %>%
+  select(c('Rarita')) #extracting Rarita GNI data from table
+rgnits2 <- ts(rgni,frequency=1,start=2011)
+
+rgnifit2 <- ets(rgnits2,model='AAN')
+autoplot(forecast(rgnifit2,h=10)) +
+  ggtitle('Forecasted Raritan GNI from 2021-2030')+
+  xlab('Year')+
+  ylab('GNI')+
+  theme_bw()
+
+```
+![image](https://user-images.githubusercontent.com/63340904/162555044-399936b2-0931-4ea5-8f95-85c8ebb91b05.png)
+
+Ten-year forecasts for Raritan football assocation revenue and expenses were both calculated. Confidence intervals here showed much greater variance than the forecasted economic indices. This is likely due to the extreme potential for variance in a team's performance internationally which may impact forecasted revenues and expenses. However, as previously mentioned, the team is predicted to be competitive and thus these negative predictions are not expected to be realised. Both revenues and expenses were forecasted using ETS(AAN) models, the code and graphs are provided below.
+
+```{r}
+  #Forecasting Raritan revenue data
+raritarevenue <- revenue %>%
+  filter(`_Nation` == 'Rarita')   #extracting Raritan data from international revenue table
+raritarevenue <- transpose(raritarevenue)
+raritarevenue <- as.numeric(raritarevenue[-1,])
+raritarevenue <- rev(raritarevenue)
+
+    #Total revenue
+totalrevenue <- raritarevenue[16:20]
+totalrevenuets <- ts(totalrevenue,frequency = 1, start=2016)
+
+totalrevenuefit2 <- ets(totalrevenuets,model='AAN')
+autoplot(forecast(totalrevenuefit2,h=10))+
+  ggtitle('Forecasted Raritan revenue from 2021-2030')+
+  xlab('Year')+
+  ylab('Revenue')+
+  theme_bw()
+
+```
+![image](https://user-images.githubusercontent.com/63340904/162555059-9cb4021f-95f9-4b47-bda6-06a6e0d7e620.png)
+
+```{r}
+  #Forecasting Raritan expense data
+raritaexp <- expenses %>%
+  filter(`_Nation` == 'Rarita')   #extracting Raritan data from international expense table
+raritaexp <- transpose(raritaexp)
+raritaexp <- as.numeric(raritaexp[-1,])
+raritaexp <- rev(raritaexp)
+
+    #Total expenses
+totalexp <- raritaexp[11:15]
+totalexpts <- ts(totalexp,frequency = 1, start=2016)
+
+totalexpfit2 <- ets(totalexpts,model='AAN')
+autoplot(forecast(totalexpfit2,h=10))+
+  ggtitle('Forecasted Raritan expenses from 2021-2030')+
+  xlab('Year')+
+  ylab('Expenses')+
+  theme_bw()
+
+```
+![image](https://user-images.githubusercontent.com/63340904/162555149-7027d89b-bd3c-4a26-96fc-14b605881d61.png)
 
 Finally, our forecasted revenues and expenses were multiplied by the forecasted population to obtain total profit/loss seen below. The relevant R-code for this process is also shown.
 
@@ -256,6 +342,11 @@ profitloss <- profitlosspc*fpop$mean
 | 2028 | 214.29 | 174.78 | 13,019,263 | 514,368,228 |
 | 2029 | 218.69 | 178.05 | 13,075,176 | 531,382,935 |
 | 2030 | 223.08 | 181.31 | 13,131,089 | 548,524,267 |
+
+## Additional Economic Impacts/Considerations
+To pay for the national team, the Raritan government provided a one-time lump sum of ∂ 995,000,000. The use of this initial funding and additional sources of funding are discussed in detail in the implementation plan.
+
+As discussed prior, performing at a high level internationally can have major positive impacts on Rarita. Fielding a strong international squad can garner new attention towards the Raritan Football League, increasing attendance and overall revenue. This increased attention is not limited to the football industry alone, the Raritan tourism industry may see an increase in revenue because of the team's success (Doidge et.al, 2019).
 
 ---
 
