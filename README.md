@@ -154,7 +154,8 @@ MSErf<-mean((actualgoal-rfpredictgoal)^2)
 ### Bagging
 
 Bagging is an extension of the simple classification tree whereby it creates several (B number of them) different bootstrapped training data sets. The model is then trained on the bth bootstrapped set and then averaged to achieve the following equation:
-![image](https://user-images.githubusercontent.com/100172902/162564852-6a3783a7-574e-4a70-8b4a-27c095cabaf5.png)
+![image](https://user-images.githubusercontent.com/100172902/162569395-506ac8c8-c257-484b-a22f-0b7596b74ada.png)
+
 
 ```{r} 
   #Bagging
