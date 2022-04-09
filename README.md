@@ -195,6 +195,42 @@ Building a competitive soccer team has major impacts on the economy and can gene
 # Economic Impact 
 ![giphy](https://user-images.githubusercontent.com/100133925/161907758-35255d7b-4bf2-4e00-8092-d57d08d45568.gif)
 
+To assess the impact of the proposed implementation plan on the Raritan economy, GDP, GNI, revenues, expenses and profit/loss were all forecast over the next 10 years using a variety of models. All graphs shown are on a per-capita basis, the profit/loss table gives an overall national value.
+
+Finally, our forecasted revenues and expenses were multiplied by the forecasted population to obtain total profit/loss seen below. The relevant R-code for this process is also shown.
+
+```{r}
+  #Forecasted profit/loss per capita
+frevenue <- forecast(totalrevenuefit2,h=10) #revenue per capita forecast
+fexp <- forecast(totalexpfit2,h=10) #expense per capita forecast
+profitlosspc <- frevenue$mean - fexp$mean #profit/loss per capita forecast
+
+  #Forecasted population
+raritapop <- pop %>%
+  select(c('Rarita'))
+raritapopts <- ts(raritapop,frequency = 1,start=2011)
+
+raritapopfit <- auto.arima(raritapopts)
+fpop <- forecast(raritapopfit,h=10)
+
+  #Forecasted total annual profit/loss
+profitloss <- profitlosspc*fpop$mean
+
+```
+
+| Year | Revenue (per capita) | expenses (per capita) | Population | Profit/Loss |
+| :---:  | :---:  | :---:  | :---:  | :---:  |
+| 2021 | 183.54 | 151.95 | 12,627,874 | 398,810,805 |
+| 2022 | 187.93 | 155.21 | 12,683,786 | 414,939,131 |
+| 2023 | 192.32 | 158.48 | 12,739,699 | 431,194,082 |
+| 2024 | 196.72 | 161.74 | 12,795,612 | 447,575,660 |
+| 2025 | 201.11 | 165.00 | 12,851,525 | 464,083,863 |
+| 2026 | 205.50 | 168.26 | 12,907,438 | 480,718,692 |
+| 2027 | 209.90 | 171.52 | 12,963,351 | 497,480,147 |
+| 2028 | 214.29 | 174.78 | 13,019,263 | 514,368,228 |
+| 2029 | 218.69 | 178.05 | 13,075,176 | 531,382,935 |
+| 2030 | 223.08 | 181.31 | 13,131,089 | 548,524,267 |
+
 ---
 
 # Implementation Plan 
