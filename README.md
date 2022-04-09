@@ -210,9 +210,6 @@ To predict the probability of winning the tournament, tournament results were ch
 
 Through examining the forecasted tournament rankings and the chances of winning, it is evident that the selected Raritan National Soccer Team exemplifies a competitive nature in the present but also for the mid to long-term future.
 
-## Effects of Competitive Team
-Building a competitive soccer team has major impacts on the economy and can generate vast amounts of revenue. For one, displaying a high level of soccer talent on the international stage will garner attention in the domestic Raritan League. From the SOA data, provided by Valani Global, the 2021 Tournament Place tended to show competitive teams with high league attendance, social media follower or both. For example, the nation of Southern Ristan, placing 6th in 2021, has an average league attendance of 66,984 making it one of the highest, but also has the most Facebook, Twitter, and Instagram followers. Similarly, Nganion, which placed 3rd in 2021, hosts 72,400 spectators on average in their league and has the second-most Facebook, Twitter, and Instagram followers. 
-
 ![true-correct](https://user-images.githubusercontent.com/100133925/162554315-23047a86-386f-4e68-ae6d-4e5120aa4302.gif)
 
 
@@ -226,8 +223,8 @@ To assess the impact of the proposed implementation plan on the Raritan economy,
 The forecast for Raritan GDP was performed using an ARIMA(0,1,0) model with drift. The impact on the GDP of the individual Raritan provinces (East, West and Central) was predicted to be similar in nature to the effect on the overall Raritan GDP. The R-code for this forecast and the produced graph are shown below.
 
 ```{r}
-    #Rarita GDP
-      #Changing GDP table to a suitable format for forecasting
+#Rarita GDP
+  #Changing GDP table to a suitable format for forecasting
 rgdp <- gdp %>%
   select(c('Rarita')) #extracting Rarita GDP data from table
 rgdpts <- ts(rgdp,frequency = 1,start=2011)
@@ -247,8 +244,8 @@ The code for the provincial forecasts was similar in nature to the above code, w
 Raritan GNI was forecast in a similar manner to GDP, however here an ETS(AAN) model was used. Similar benefits were forecast for the individual provinces. Relevant code and graph are provided below.
 
 ```{r}
-    #Rarita GNI
-      #Changing GNI table to a suitable format for forecasting
+#Rarita GNI
+  #Changing GNI table to a suitable format for forecasting
 rgni <- gni %>%
   select(c('Rarita')) #extracting Rarita GNI data from table
 rgnits2 <- ts(rgni,frequency=1,start=2011)
@@ -266,14 +263,14 @@ autoplot(forecast(rgnifit2,h=10)) +
 Ten-year forecasts for Raritan football assocation revenue and expenses were both calculated. Confidence intervals here showed much greater variance than the forecasted economic indices. This is likely due to the extreme potential for variance in a team's performance internationally which may impact forecasted revenues and expenses. However, as previously mentioned, the team is predicted to be competitive and thus these negative predictions are not expected to be realised. Both revenues and expenses were forecasted using ETS(AAN) models, the code and graphs are provided below.
 
 ```{r}
-  #Forecasting Raritan revenue data
+#Forecasting Raritan revenue data
 raritarevenue <- revenue %>%
   filter(`_Nation` == 'Rarita')   #extracting Raritan data from international revenue table
 raritarevenue <- transpose(raritarevenue)
 raritarevenue <- as.numeric(raritarevenue[-1,])
 raritarevenue <- rev(raritarevenue)
 
-    #Total revenue
+  #Total revenue
 totalrevenue <- raritarevenue[16:20]
 totalrevenuets <- ts(totalrevenue,frequency = 1, start=2016)
 
@@ -288,14 +285,14 @@ autoplot(forecast(totalrevenuefit2,h=10))+
 ![image](https://user-images.githubusercontent.com/63340904/162555059-9cb4021f-95f9-4b47-bda6-06a6e0d7e620.png)
 
 ```{r}
-  #Forecasting Raritan expense data
+#Forecasting Raritan expense data
 raritaexp <- expenses %>%
   filter(`_Nation` == 'Rarita')   #extracting Raritan data from international expense table
 raritaexp <- transpose(raritaexp)
 raritaexp <- as.numeric(raritaexp[-1,])
 raritaexp <- rev(raritaexp)
 
-    #Total expenses
+  #Total expenses
 totalexp <- raritaexp[11:15]
 totalexpts <- ts(totalexp,frequency = 1, start=2016)
 
@@ -312,12 +309,12 @@ autoplot(forecast(totalexpfit2,h=10))+
 Finally, our forecasted revenues and expenses were multiplied by the forecasted population to obtain total profit/loss seen below. The relevant R-code for this process is also shown.
 
 ```{r}
-  #Forecasted profit/loss per capita
+#Forecasted profit/loss per capita
 frevenue <- forecast(totalrevenuefit2,h=10) #revenue per capita forecast
 fexp <- forecast(totalexpfit2,h=10) #expense per capita forecast
 profitlosspc <- frevenue$mean - fexp$mean #profit/loss per capita forecast
 
-  #Forecasted population
+#Forecasted population
 raritapop <- pop %>%
   select(c('Rarita'))
 raritapopts <- ts(raritapop,frequency = 1,start=2011)
@@ -325,7 +322,7 @@ raritapopts <- ts(raritapop,frequency = 1,start=2011)
 raritapopfit <- auto.arima(raritapopts)
 fpop <- forecast(raritapopfit,h=10)
 
-  #Forecasted total annual profit/loss
+#Forecasted total annual profit/loss
 profitloss <- profitlosspc*fpop$mean
 
 ```
@@ -342,6 +339,9 @@ profitloss <- profitlosspc*fpop$mean
 | 2028 | 214.29 | 174.78 | 13,019,263 | 514,368,228 |
 | 2029 | 218.69 | 178.05 | 13,075,176 | 531,382,935 |
 | 2030 | 223.08 | 181.31 | 13,131,089 | 548,524,267 |
+
+## Effects of Competitive Team
+Building a competitive soccer team has major impacts on the economy and can generate vast amounts of revenue. For one, displaying a high level of soccer talent on the international stage will garner attention in the domestic Raritan League. From the SOA data, provided by Valani Global, the 2021 Tournament Place tended to show competitive teams with high league attendance, social media follower or both. For example, the nation of Southern Ristan, placing 6th in 2021, has an average league attendance of 66,984 making it one of the highest, but also has the most Facebook, Twitter, and Instagram followers. Similarly, Nganion, which placed 3rd in 2021, hosts 72,400 spectators on average in their league and has the second-most Facebook, Twitter, and Instagram followers. 
 
 ## Additional Economic Impacts/Considerations
 To pay for the national team, the Raritan government provided a one-time lump sum of ∂ 995,000,000. The use of this initial funding and additional sources of funding are discussed in detail in the implementation plan.
