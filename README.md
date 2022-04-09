@@ -165,7 +165,7 @@ After comparing all the models by examining their mean-squared-error, the best m
 
 
 
-## National Team 🏴:
+## National Team 🏴
 
 After selecting the best predictive model, the following table displays the squad of **23** chosen for the Raritan National Team. This is the squad that will suit up for the international tournament. 
 
@@ -212,6 +212,9 @@ Through examining the forecasted tournament rankings and the chances of winning,
 
 ## Effects of Competitive Team
 Building a competitive soccer team has major impacts on the economy and can generate vast amounts of revenue. For one, displaying a high level of soccer talent on the international stage will garner attention in the domestic Raritan League. From the SOA data, provided by Valani Global, the 2021 Tournament Place tended to show competitive teams with high league attendance, social media follower or both. For example, the nation of Southern Ristan, placing 6th in 2021, has an average league attendance of 66,984 making it one of the highest, but also has the most Facebook, Twitter, and Instagram followers. Similarly, Nganion, which placed 3rd in 2021, hosts 72,400 spectators on average in their league and has the second-most Facebook, Twitter, and Instagram followers. 
+
+![true-correct](https://user-images.githubusercontent.com/100133925/162554315-23047a86-386f-4e68-ae6d-4e5120aa4302.gif)
+
 
 ---
 
