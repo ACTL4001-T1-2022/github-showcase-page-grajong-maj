@@ -39,6 +39,7 @@ library(tidyr)
 library(mice)
 
 ```
+![amazon-delivery](https://user-images.githubusercontent.com/100133925/162554254-2893de6c-70ac-40c6-b21d-e58f0b264043.gif)
 
 The entire R code used for this case challenge can be obtained [here](assignment%20code.R).
 
