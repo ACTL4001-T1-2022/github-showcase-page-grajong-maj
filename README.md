@@ -62,15 +62,39 @@ The following changes in player data include the league and tournament data sets
 
 ### Passing data
 - Recalculate 'Total Cmp%', 'Short Cmp%', 'Medium Cmp%','Long Cmp%' and 'A-xA'
-- Remove outlier entries for the recalculated variables excluding 'A-xA'.
+- Remove outlier entries (same condition as aobve) for the recalculated variables excluding 'A-xA'.
 
 ### Defense Data
 - Recalculate 'Vs Dribbles Tkl%' and 'Pressures %'
-- Remove outlier entries for the recalculated variables.
+- Remove outlier entries (same condition as aobve) for the recalculated variables.
 
 ### Goalkeeping Data
 - Recalculate 'Performance Save%' and 'Performance CS%
-- Remove outlier entries for the recalculated variables.
+- Remove outlier entries (same condition as aobve) for the recalculated variables.
+
+Duplicate league and tournament data sets for shooting, passing, defense, and goalkeeping were created to maintain the original version for later use. The duplicate datasets were modified to visualise the correlation between the variables themselves, but also to visualise the correlation between the variables and tournament placement.
+- Tournament placement was added to the tournament data sets for the corresponding years (2020 and 2021).
+- Replace any NA in 'Tournament Place' with 25, assuming that NA means the team did not qualify so they placed last.
+
+An example of the R-code for correlation visualisation using goalkeeping data is shown below
+
+```{r}
+tgoal[ ,'Tournament Place']<-NA
+tgoal2020<- tgoal %>% filter(Year==2020)
+tgoal2021<- tgoal %>% filter(Year==2021)
+
+tgoal2020$`Tournament Place` = rank2020$`2020 Tournament Place`[match(tgoal2020$Nation, rank2020$Country)]
+tgoal2021$`Tournament Place` = rank2021$`2021 Tournament Place`[match(tgoal2021$Nation, rank2021$Country)]
+
+tgoalkek <-rbind(tgoal2020, tgoal2021)
+tgoalkek$`Tournament Place`[is.na(tgoalkek$`Tournament Place`)]<-25
+
+correlation<-cor(tgoalkek[,unlist(lapply(tgoalkek, is.numeric))])
+ggcorrplot(correlation[,23:1])
+```
+
+- The original tournament and league data were combined for shooting, passing, defense, and goalkeeping.
+- 
 
 For code chunk
 
