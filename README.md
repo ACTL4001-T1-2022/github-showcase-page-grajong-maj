@@ -1,19 +1,5 @@
 
 
-https://user-images.githubusercontent.com/100133925/162604955-c438f2a8-1637-4b64-b392-7b20850254c1.mp4
-
-
-![49897602_2158690321126522_3195177895509098496_n](https://user-images.githubusercontent.com/100133925/162605827-c376e83e-18c0-4435-ab0b-ffa68f39e00c.png)
-
-<!-- PROJECT LOGO -->
-<div align="center">
-  <img src="images/cycle.png">
-  <h1 align="center">ACTL4001 Case Report</h1>
-
-  <h3 align="center">Grajong Maj</h3>
-</div>
-
-
 
 
 
