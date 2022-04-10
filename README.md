@@ -1,8 +1,5 @@
 
 
-
-
-
 James Wang, Ashkon Mostofi, Yichen Li, Faybian Chow :trollface:
 
 ---
