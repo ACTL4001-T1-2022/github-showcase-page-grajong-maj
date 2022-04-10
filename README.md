@@ -1,3 +1,22 @@
+
+
+https://user-images.githubusercontent.com/100133925/162604955-c438f2a8-1637-4b64-b392-7b20850254c1.mp4
+
+
+
+<!-- PROJECT LOGO -->
+<div align="center">
+  <img src="images/cycle.png">
+  <h1 align="center">ACTL4001 Case Report</h1>
+
+  <h3 align="center">Grajong Maj</h3>
+</div>
+
+
+
+
+
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100133925/161915139-a3d910ab-104f-409f-9f7d-6b76d3745ef7.gif" />
 </p>
